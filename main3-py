@@ -1,0 +1,13 @@
+#LISTAS==ARREGLOS[]
+
+# DICCIONARIOS EN PYTHON == OBJETOS{}
+# ATERIBUTOS== KEYS/ LLAVES
+estudiante={
+    "nombre":"Juan",
+    "edad":32,
+    "EsHinchaVerde":True
+}
+print(estudiante)
+print(estudiante["edad"])
+estudiante["cedula"]=52305353
+print(estudiante)
